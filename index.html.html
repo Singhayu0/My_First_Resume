@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>resume</title>
+
+<style>
+	body{
+		background :e5e5e5;
+		font-family : Arial, sans-serif;
+		margin :0;
+		padding : -0px;
+	}
+	.page{
+		width :210mm;
+		min-height : 297mm;
+		margin : auto;
+		padding : 10mm 15mm 15mm 15mm;
+		padding-top : 5mm;
+		border : 1px solid black;
+		box-sizing : border-box;
+		background : white;	
+		box-shadow :0 0 15px rgba(0,0,0,0.2);
+	}
+
+	header{
+		text-align : center;
+		margin-bottom :15px;
+		margin-top :0;
+	}
+
+	nav{
+		text-align :center;
+		margin-bottom : 20px;
+		padding-bottom : 10px;
+		border-bottom : 1px solid #ccc;
+	}
+
+	nav a{
+		margin : 0 10px;
+		margin-right : px;
+		text-decoration :none; 
+		color :#0066cc;
+	}
+
+	section{
+		border : 1px solid #dcdcdc;
+		border-radius :2px;
+		padding : 10px;
+		margin-bottom : 15px;
+	}
+
+	h3{
+		border-bottom : 2px solid #333;
+		padding-bottom : 5px;
+	}
+
+	table{
+		border-collapse : collapse;
+	}
+
+	table td, table th {
+		padding : 5px 10px;
+	}
+
+	footer{
+		margin-top :30px;
+	}
+	
+	h1{
+		margin : 0;
+		padding : 5px;
+		text-align :center;
+		margin-top : 10px;
+		margin-bottom :5px;
+	}
+	
+	@media print{
+	body{
+		background :white;
+	}
+	.page{
+		box-shadow :none;
+		border : none;
+		margin :0;
+		width :100%;
+	}
+	nav,button {
+		display : none;
+	}
+	}
+
+	@page {
+		size :A4;
+		margin :10mm;
+	}	
+
+	
+
+</style>
+</head>
+<body><div class="page">
+	<h1>Ayush Jamadiya</h1>
+	<header><a href="tel:=919111870976">9111870976</a> |
+		<a href="mailto:ayushjamadiya88@gmail.com">ayushjamadiya88@gmail.com</a> | 
+		<a>Bengaluru</a>
+	</header>
+
+	<nav>
+	<a href="#summary"> Summary</a>  
+	<a href="#skills">Skills</a> 
+	<a href="#projects">Projects</a>
+	<a href="#achievement">Achievement</a>
+	<a href="#education">Education</a>
+	</nav>
+
+	<section id="summary">
+	<h3>Summary</h3>
+	<p>Computer Science Engineering graduate (2025) with hands-on experience in Java, React.js, Node.js, and
+MongoDB. Skilled in developing responsive web applications and passionate about full-stack development.
+Seeking an entry-level Software Developer role to contribute technical skills and grow in a collaborative
+environment.</p>
+	</section>
+
+	<section id="skills">
+		<h3>Skills</h3>
+		<table>
+		<tr><th>FrontEnd : </th><td> HTML, CSS</td></tr>
+		<tr><th>BackEnd  : </th><td> Java</td></tr>
+		</table>
+	</section>
+
+	<section id="projects" >
+		<h3>Projects</h3>
+		<h4> E-commerce shop app</h4>
+		<ul>
+		<li>I build a mordern, fast and fully responsive web application for shopping.</li>
+		<li>I use HTML/CSS for login page, home page, navbar, cart function.</li>  
+		<li>Also i use AOS (Animation on Scroll) for smooth scroll.</li>
+		<li>it was great work and fast loadding website this help me improve my frontend skill</li>  
+		</ul>
+
+		<h4>Gym Interface</h4>
+		<ul>
+		<li>I build a mordern, fast and fully responsive web application for gym interface.</li>
+		<li>I use HTML/CSS for login page, home page, navbar.</li>  
+		<li>Also i use AOS (Animation on Scroll) for smooth scroll.</li>
+		<li>it was great work and fast loadding website this help me improve my frontend skill</li>  
+		</ul>
+	</section>
+
+	<section id="achievement">
+		<h3>Achievement</h3>
+		<ul>
+		<li>3 star rank in java in HakerRank</li>
+		<li>2 star rank in C in HakerRank</li>
+		</ul>
+	</section>
+
+	<section id="education">
+		<h3>Education</h3>
+		<h4>Bachlore of Technology in Computer science and Engineering</h4>
+		<p>SD Bansal College of Technology Indore</p>
+		<p> July 2021 - July 2025</p>
+
+		<h4>PCM (Class-XII)</h4>
+		<p>Govt. Malhar Ashram HS School Indore</p>
+		<p> July 2019 - July 2021</p>
+
+		<h4>Genral (Class-X)</h4>
+		<p>Govt. High School Indore</p>
+		<p> July 2017 - July 2019</p>
+	</section>
+	
+	<footer>
+		<h4> Signature</h4>
+		Ayush Jamadiya
+		
+	</footer>	
+
+	<button onClick="window.print()" >Print </button>
+</div>
+</body>
+
+</html>
